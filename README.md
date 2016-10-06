@@ -1,8 +1,10 @@
 #Basic Code Demo for Inheritance, Overriding, and Overloading
+####Run this code in Visual Studio Code (works on mac, pc, linux)
+This is a basic example that focuses on a few object oriented topics. 
 
 ####Base Class is Called Payment
 We know we are going to have to deal with various types of payments, in this example we will need to receive payments in cash,
-paypal, and credit card. The base class below only has a property for amount and a virtual method "MakePayment" which will likely need to be
+paypal, and credit card. The base class below only has a property for amount and a virtual method "MakePayment" which will likely need to 
 modified in sub classes.
 ```
  public class Payment
